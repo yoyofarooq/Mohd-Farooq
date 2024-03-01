@@ -1,0 +1,526 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    background-color: #2b2b2b;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+header {
+    background-color: #1a1a1a;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info ion-icon {
+    margin-right: 5px;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('background_header.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.reservation-button {
+    background-color: #ff3d00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.reservation-button:hover {
+    background-color: #e53935;
+}
+
+/* Service Section */
+.service {
+    padding: 50px 20px;
+}
+
+.service h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.service-item {
+    background-color: #2b2b2b;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.service-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.service-item button {
+    background-color: #ff3d00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.service-item button:hover {
+    background-color: #e53935;
+}
+
+/* About Section */
+.about {
+    background-color: #2b2b2b;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    margin-bottom: 40px;
+}
+
+.about p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.about button {
+    background-color: #ff3d00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.about button:hover {
+    background-color: #e53935;
+}
+
+/* Special Dish Section */
+.special-dish {
+    background-color: #1a1a1a;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.special-dish h2 {
+    margin-bottom: 40px;
+}
+
+.dish-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.dish-item img {
+    width: 300px;
+    margin-right: 40px;
+    border-radius: 10px;
+}
+
+.dish-details h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.dish-details p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.price {
+    margin-bottom: 20px;
+}
+
+.price .original-price {
+    color: #757575;
+    text-decoration: line-through;
+}
+
+.price .discounted-price {
+    color: #ff3d00;
+    font-size: 24px;
+}
+
+.dish-item button {
+    background-color: #ff3d00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dish-item button:hover {
+    background-color: #e53935;
+}
+
+/* Menu Section */
+.menu {
+    padding: 100px 20px;
+}
+
+.menu h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.menu-item img {
+    width: 300px;
+    margin-right: 40px;
+    border-radius: 10px;
+}
+
+.menu-details h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.menu-details p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.menu-details .price {
+    color: #ff3d00;
+    font-size: 20px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #2b2b2b;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.testimonials h2 {
+    margin-bottom: 40px;
+}
+
+.testimonial {
+    background-color: #1a1a1a;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.testimonial p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.author {
+    font-style: italic;
+}
+
+/* Reservation Section */
+.reservation {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.reservation h2 {
+    margin-bottom: 40px;
+}
+
+#reservationForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#reservationForm label {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#reservationForm input[type="text"],
+#reservationForm input[type="email"],
+#reservationForm input[type="date"],
+#reservationForm input[type="time"],
+#reservationForm input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#reservationForm input[type="submit"] {
+    background-color: #ff3d00;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#reservationForm input[type="submit"]:hover {
+    background-color: #e53935;
+}
+
+/* Features Section */
+.features {
+    background-color: #1a1a1a;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.features h2 {
+    margin-bottom: 40px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.feature ion-icon {
+    font-size: 48px;
+    margin-right: 20px;
+}
+
+.feature h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.feature p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Event Section */
+.event {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.event h2 {
+    margin-bottom: 40px;
+}
+
+.event-item {
+    background-color: #2b2b2b;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.event-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.event-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.event-item p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #1a1a1a;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.footer-logo img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.footer-contact p {
+    margin-bottom: 10px;
+}
+
+.footer-hours p {
+    margin-bottom: 10px;
+}
+
+.footer-subscribe h3 {
+    margin-bottom: 20px;
+}
+
+.footer-subscribe input[type="email"] {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.footer-subscribe button {
+    background-color: #ff3d00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.footer-subscribe button:hover {
+    background-color: #e53935;
+}
+
+.footer-social {
+    margin-top: 20px;
+}
+
+.footer-social h3 {
+    margin-bottom: 20px;
+}
+
+.social-icons ion-icon {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #fff;
+}
+
+/* Back to Top Button */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ff3d00;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.back-to-top:hover {
+    background-color: #e53935;
+}
+/* Popup Window */
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.popup-content {
+    color: white;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+
+/* Responsive Images */
+.popup-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+.order-btn {
+  background-color: #ff3d00;
+  color: white;
+  text-decoration: none;
+  border-radius: 2px;
+}
+
+/*cart page */
+
+.cart-item-img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.item-quantity {
+    width: 50px;
+    text-align: center;
+}
+
+.change-quantity {
+    padding: 0 10px;
+}
+.about {
+    padding: 50px 20px;
+}

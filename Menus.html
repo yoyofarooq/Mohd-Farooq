@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Menus</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <section class="service">
+  <h2>Menu</h2>
+  <div class="service-item">
+    <h3>Breakfast</h3>
+    <p>Start your day with our delicious breakfast options.</p>
+    <button class="menu-btn" onclick="openPopup('breakfastPopup')">View Menu</button>
+    <div class="popup" id="breakfastPopup">
+      <div class="popup-content">
+        <span class="close" onclick="closePopup('breakfastPopup')">&times;</span>
+        <h3>Breakfast Menu</h3>
+        <p>Placeholder for breakfast menu details...</p>
+        <img src="pexels-rama-khandkar-2113556.jpg" alt="Breakfast Menu Photo">
+        <div class="menu-info">
+          <p class="price">$10.99</p>
+          <a href="#" class="order-btn">Order Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="service-item">
+    <h3>Lunch</h3>
+    <p>Start your day with our delicious lunch options.</p>
+    <button class="menu-btn" onclick="openPopup('breakfastPopup')">View Menu</button>
+    <div class="popup" id="breakfastPopup">
+      <div class="popup-content">
+        <span class="close" onclick="closePopup('breakfastPopup')">&times;</span>
+        <h3>Lunch Menu</h3>
+        <p>Placeholder for lunch menu details...</p>
+        <img src="pexels-photo-70497.jpeg" alt="Lunch Menu Photo">
+        <div class="menu-info">
+          <p class="price">$10.99</p>
+          <a href="#" class="order-btn">Order Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="service-item">
+    <h3>Dinner</h3>
+    <p>Start your day with our delicious dinner options.</p>
+    <button class="menu-btn" onclick="openPopup('dinnerPopup')">View Menu</button>
+    <div class="popup" id="dinnerPopup">
+      <div class="popup-content">
+        <span class="close" onclick="closePopup('dinnerPopup')">&times;</span>
+        <h3>Dinner Menu</h3>
+        <p>Placeholder for dinner menu details...</p>
+        <img src="pexels-photo-1833349.jpeg" alt="dinner Menu Photo">
+        <div class="menu-info">
+          <p class="price">$10.99</p>
+          <a href="#" class="order-btn">Order Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ <script src="script.js"></script>
+</body>
+
+</html>
